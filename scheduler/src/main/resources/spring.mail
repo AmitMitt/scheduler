@@ -1,0 +1,16 @@
+## QuartzProperties
+spring.quartz.job-store-type = jdbc
+spring.quartz.properties.org.quartz.threadPool.threadCount = 5
+
+## MailProperties
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=amit.kumar@karexpert.com
+spring.mail.password=
+mail.transport.protocol=smtp
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.from.email=amit.kumar@karexpert.com
+
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
